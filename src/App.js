@@ -6,7 +6,6 @@ import Modal from "./components/Modal";
 function App() {
   const [showModal, setShowModal] = useState(false);
 
-  console.log(showModal);
   return (
     <div className="App">
       <Modal showModal={showModal} setShowModal={setShowModal}>
